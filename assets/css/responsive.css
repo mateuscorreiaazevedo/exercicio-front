@@ -83,7 +83,9 @@
 
     .navbar-items {
         width: 100%;
-        background-color: #fff;
+        background-color: rgba(15, 15, 15, 0.05);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
         padding: 16px 0;
         border-radius: 5px;
         box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.2);
